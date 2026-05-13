@@ -1,13 +1,13 @@
 :root {
-  --emerald-deep: #061d1a;
-  --emerald: #083d2d;
-  --emerald-light: #1c6a4a;
-  --maroon: #0a4c34;
-  --rose: #d7e4d4;
-  --ivory: #fff8ea;
-  --paper: #fff6df;
-  --paper-deep: #ead298;
-  --gold: #caa75a;
+  --emerald-deep: #1e0710;
+  --emerald: #4f1022;
+  --emerald-light: #8b2b3b;
+  --maroon: #7e1f31;
+  --rose: #e8c1b6;
+  --ivory: #fff3de;
+  --paper: #fff0d1;
+  --paper-deep: #e8c484;
+  --gold: #d1a850;
   --gold-bright: #ffe4a0;
   --ink: #321914;
   --muted: #775044;
@@ -50,9 +50,9 @@ body {
   place-items: center;
   isolation: isolate;
   background:
-    linear-gradient(160deg, rgba(10, 76, 52, 0.26), transparent 34%),
-    radial-gradient(ellipse at 50% -18%, rgba(255, 248, 234, 0.2), transparent 42%),
-    linear-gradient(145deg, #061d1a 0%, #0a3d2e 50%, #0f1a15 100%);
+    linear-gradient(160deg, rgba(126, 31, 49, 0.32), transparent 34%),
+    radial-gradient(ellipse at 50% -18%, rgba(255, 243, 222, 0.2), transparent 42%),
+    linear-gradient(145deg, #1e0710 0%, #4f1022 50%, #190a0f 100%);
 }
 
 .film::before,
@@ -328,9 +328,9 @@ body {
     radial-gradient(circle at 27% 24%, #fff 0 0.82rem, #eadfc6 0.84rem 1rem, transparent 1.02rem),
     radial-gradient(circle at 41% 38%, #fff 0 0.52rem, #eadfc6 0.54rem 0.66rem, transparent 0.68rem),
     radial-gradient(circle at 18% 51%, #fff 0 0.42rem, #eadfc6 0.44rem 0.55rem, transparent 0.57rem),
-    radial-gradient(ellipse at 61% 26%, #2e6b43 0 0.78rem, transparent 0.8rem),
-    radial-gradient(ellipse at 55% 56%, #35784d 0 0.64rem, transparent 0.66rem),
-    radial-gradient(ellipse at 26% 72%, #244f37 0 0.58rem, transparent 0.6rem),
+    radial-gradient(ellipse at 61% 26%, #7e1f31 0 0.78rem, transparent 0.8rem),
+    radial-gradient(ellipse at 55% 56%, #9f3a48 0 0.64rem, transparent 0.66rem),
+    radial-gradient(ellipse at 26% 72%, #5b1725 0 0.58rem, transparent 0.6rem),
     radial-gradient(circle at 58% 66%, #fff 0 0.25rem, transparent 0.27rem),
     radial-gradient(circle at 67% 48%, #fff 0 0.2rem, transparent 0.22rem);
 }
@@ -468,7 +468,7 @@ body {
 .paper::after {
   inset: 0.9rem;
   border-color: rgba(217, 180, 93, 0.5);
-  border-color: rgba(10, 76, 52, 0.45);
+  border-color: rgba(126, 31, 49, 0.45);
   border-radius: 50% 50% 0.55rem 0.55rem / 12% 12% 0.55rem 0.55rem;
   clip-path: polygon(0 14%, 31% 14%, 50% 0, 69% 14%, 100% 14%, 100% 100%, 0 100%);
 }
@@ -1004,7 +1004,7 @@ h3 {
   font-size: 0.78rem;
   font-weight: 800;
   border-radius: 0.42rem;
-  background: linear-gradient(145deg, var(--maroon), #5c1521);
+  background: linear-gradient(145deg, var(--maroon), #46101c);
 }
 
 .schedule strong {
